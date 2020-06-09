@@ -18,12 +18,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     abstract_chatbot.cpp \
     chat_history.cpp \
+    chatbot.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     abstract_chatbot.h \
     chat_history.h \
+    chatbot.h \
     mainwindow.h
 
 FORMS += \
